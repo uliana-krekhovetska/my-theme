@@ -1,0 +1,587 @@
+.hero {
+  background: url("../img/hero_section.png") center center no-repeat;
+  background-size: cover; }
+  .hero .containerHero .titleHero {
+    padding: 250px 0 15px 0;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4px; }
+  .hero .containerHero .descriptionHero {
+    padding: 15px 0 50px 0;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 5px; }
+  .hero .containerHero .inputForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff; }
+    .hero .containerHero .inputForm .formInputHero {
+      width: 100%;
+      height: 60px;
+      border: none;
+      text-align: center;
+      color: #999999;
+      font-family: "Josefin Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 60px;
+      letter-spacing: 2.8px; }
+      .hero .containerHero .inputForm .formInputHero::placeholder {
+        color: #999999;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 2.8px; }
+        @media (max-width: 495px) {
+          .hero .containerHero .inputForm .formInputHero::placeholder {
+            font-size: 10px; } }
+      .hero .containerHero .inputForm .formInputHero:active, .hero .containerHero .inputForm .formInputHero:focus {
+        color: #999999;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+        border: 2px solid #5474fd; }
+    .hero .containerHero .inputForm .formButtonHero {
+      width: 25%;
+      height: 56px;
+      background-color: #5474fd;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      font-family: 'Aleo';
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 52px;
+      text-transform: uppercase;
+      letter-spacing: 1.4px; }
+      .hero .containerHero .inputForm .formButtonHero span {
+        padding-right: 5px; }
+        @media (min-width: 576px) and (max-width: 767.99px) {
+          .hero .containerHero .inputForm .formButtonHero span {
+            padding-right: 0; } }
+        @media (max-width: 575.99px) {
+          .hero .containerHero .inputForm .formButtonHero span {
+            padding-right: 0; } }
+        @media (max-width: 410px) {
+          .hero .containerHero .inputForm .formButtonHero span {
+            font-size: 10px; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .hero .containerHero .inputForm .formButtonHero .search {
+          display: none; } }
+      @media (max-width: 575.99px) {
+        .hero .containerHero .inputForm .formButtonHero .search {
+          display: none; } }
+  .hero .containerHero .textScrollDownHero {
+    padding: 120px 0 0 0; }
+    .hero .containerHero .textScrollDownHero .textLinkScrollDownHero {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 2px; }
+  .hero .containerHero .iconScrollDownHero {
+    padding-bottom: 135px; }
+    .hero .containerHero .iconScrollDownHero .iconLinkScrollDownHero {
+      text-decoration: none;
+      padding-bottom: 135px; }
+
+.headerTravel {
+  position: sticky;
+  top: 0;
+  z-index: 5; }
+  .headerTravel .navigation {
+    background-color: #5474fd; }
+    .headerTravel .navigation .logoNavigation {
+      padding: 25px 0 25px 0; }
+      @media (max-width: 575.99px) {
+        .headerTravel .navigation .logoNavigation {
+          display: none; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .headerTravel .navigation .logoNavigation {
+          display: none; } }
+      .headerTravel .navigation .logoNavigation .linkLogoNavigation {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2.4px; }
+    .headerTravel .navigation .menuNavigation {
+      padding: 25px 0 25px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      @media (max-width: 575.99px) {
+        .headerTravel .navigation .menuNavigation {
+          display: none; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .headerTravel .navigation .menuNavigation {
+          display: none; } }
+      .headerTravel .navigation .menuNavigation .elementMenuNavigation .linkElementMenu {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Aleo';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase; }
+    .headerTravel .navigation .top_nav {
+      display: none; }
+      @media (max-width: 575.99px) {
+        .headerTravel .navigation .top_nav {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .headerTravel .navigation .top_nav {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center; } }
+      .headerTravel .navigation .top_nav .overlay {
+        height: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: black;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s; }
+        .headerTravel .navigation .top_nav .overlay .close_button {
+          position: absolute;
+          text-decoration: none;
+          color: #5474fd;
+          top: 20px;
+          right: 45px;
+          font-size: 30px; }
+        .headerTravel .navigation .top_nav .overlay .overlay-content {
+          position: relative;
+          top: 15%;
+          width: 100%;
+          text-align: center; }
+          .headerTravel .navigation .top_nav .overlay .overlay-content a {
+            padding: 8px;
+            text-decoration: none;
+            font-family: 'Raleway';
+            font-size: 36px;
+            color: #5474fd;
+            display: block;
+            transition: 0.3s; }
+            .headerTravel .navigation .top_nav .overlay .overlay-content a:hover, .headerTravel .navigation .top_nav .overlay .overlay-content a:focus {
+              color: #555555; }
+      .headerTravel .navigation .top_nav .logo_mobile {
+        padding: 20px 0 20px 0; }
+        .headerTravel .navigation .top_nav .logo_mobile .linkLogoNavigation {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: "Josefin Sans";
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 30px;
+          text-transform: uppercase;
+          letter-spacing: 2.4px; }
+      .headerTravel .navigation .top_nav .button_menu .fas {
+        font-size: 25px;
+        color: #ffffff; }
+
+.mainTravel .whyChooseUs {
+  background: url("../img/whychooseus_section.png") center center no-repeat;
+  background-size: cover; }
+  .mainTravel .whyChooseUs .container .textWhyChooseUs {
+    padding: 200px 15px 130px 0; }
+    @media (max-width: 575.99px) {
+      .mainTravel .whyChooseUs .container .textWhyChooseUs {
+        padding: 100px 0 65px 0;
+        text-align: center; } }
+    @media (min-width: 576px) and (max-width: 767.99px) {
+      .mainTravel .whyChooseUs .container .textWhyChooseUs {
+        padding: 100px 0 65px 0;
+        text-align: center; } }
+    .mainTravel .whyChooseUs .container .textWhyChooseUs .titleWhyChooseUs {
+      color: #ffffff;
+      font-family: 'Aleo';
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px;
+      padding: 0 0 60px 0; }
+    .mainTravel .whyChooseUs .container .textWhyChooseUs .descriptionWhyChooseUs {
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 1.6px;
+      padding-bottom: 20px; }
+      .mainTravel .whyChooseUs .container .textWhyChooseUs .descriptionWhyChooseUs .textDescription {
+        padding-bottom: 30px; }
+    @media (max-width: 575.99px) {
+      .mainTravel .whyChooseUs .container .textWhyChooseUs .positionButtonWhyChooseUs {
+        display: flex;
+        justify-content: center; } }
+    @media (min-width: 576px) and (max-width: 767.99px) {
+      .mainTravel .whyChooseUs .container .textWhyChooseUs .positionButtonWhyChooseUs {
+        display: flex;
+        justify-content: center; } }
+    .mainTravel .whyChooseUs .container .textWhyChooseUs .positionButtonWhyChooseUs .buttonWhyChooseUs {
+      width: 225px;
+      height: 60px;
+      background: url("../img/button-background.png") center center no-repeat;
+      background-size: cover;
+      text-align: center; }
+      @media (max-width: 410px) {
+        .mainTravel .whyChooseUs .container .textWhyChooseUs .positionButtonWhyChooseUs .buttonWhyChooseUs {
+          height: 45px; } }
+      .mainTravel .whyChooseUs .container .textWhyChooseUs .positionButtonWhyChooseUs .buttonWhyChooseUs .linkButtonWhyChooseUs {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Aleo';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px; }
+        @media (max-width: 410px) {
+          .mainTravel .whyChooseUs .container .textWhyChooseUs .positionButtonWhyChooseUs .buttonWhyChooseUs .linkButtonWhyChooseUs {
+            font-size: 11px;
+            line-height: 45px; } }
+  .mainTravel .whyChooseUs .container .galleryWhyChooseUs {
+    padding: 120px 0 120px 0; }
+    @media (max-width: 575.99px) {
+      .mainTravel .whyChooseUs .container .galleryWhyChooseUs {
+        padding: 60px 0 60px 0; } }
+    @media (min-width: 576px) and (max-width: 767.99px) {
+      .mainTravel .whyChooseUs .container .galleryWhyChooseUs {
+        padding: 60px 0 60px 0; } }
+    .mainTravel .whyChooseUs .container .galleryWhyChooseUs .imageGalleryWhyChooseUsFirst {
+      background: url("../img/whychooseus_img_1.png") center center no-repeat;
+      background-size: cover;
+      padding: 110px 0 110px 0; }
+    .mainTravel .whyChooseUs .container .galleryWhyChooseUs .imageGalleryWhyChooseUsSecond {
+      background: url("../img/whychooseus_img_2.png") center center no-repeat;
+      background-size: cover;
+      padding: 110px 0 110px 0;
+      margin-top: 10px; }
+
+.mainTravel .whatWeDo {
+  background-color: #333333; }
+  @media (min-width: 576px) and (max-width: 767.99px) {
+    .mainTravel .whatWeDo {
+      padding: 15px 0 40px 0; } }
+  @media (max-width: 575.99px) {
+    .mainTravel .whatWeDo {
+      padding: 15px 0 40px 0; } }
+  .mainTravel .whatWeDo .containerWhatWeDo .allBlock {
+    height: 335px;
+    position: relative; }
+    @media (min-width: 768px) and (max-width: 991.99px) {
+      .mainTravel .whatWeDo .containerWhatWeDo .allBlock {
+        height: 275px; } }
+    @media (min-width: 576px) and (max-width: 767.99px) {
+      .mainTravel .whatWeDo .containerWhatWeDo .allBlock {
+        height: auto; } }
+    @media (max-width: 575.99px) {
+      .mainTravel .whatWeDo .containerWhatWeDo .allBlock {
+        height: auto; } }
+    .mainTravel .whatWeDo .containerWhatWeDo .allBlock .border_dugi_1 {
+      width: 30%;
+      height: 50%;
+      position: absolute;
+      left: 18%;
+      top: 60px;
+      border-top: 2px dotted #ffffff;
+      border-radius: 50%;
+      opacity: 0.5;
+      z-index: 0; }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .border_dugi_1 {
+          display: none; } }
+      @media (max-width: 575.99px) {
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .border_dugi_1 {
+          display: none; } }
+    .mainTravel .whatWeDo .containerWhatWeDo .allBlock .border_dugi_2 {
+      width: 30%;
+      height: 50%;
+      position: absolute;
+      right: 18%;
+      top: 60px;
+      border-top: 2px dotted #ffffff;
+      border-radius: 50%;
+      opacity: 0.5;
+      z-index: 0; }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .border_dugi_2 {
+          display: none; } }
+      @media (max-width: 575.99px) {
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .border_dugi_2 {
+          display: none; } }
+    .mainTravel .whatWeDo .containerWhatWeDo .allBlock .backgroundIcon {
+      height: 100px;
+      width: 100px;
+      background-color: #333333;
+      border-radius: 50%;
+      z-index: 1; }
+      .mainTravel .whatWeDo .containerWhatWeDo .allBlock .backgroundIcon .iconWhatWeDo {
+        fill: #5474fd; }
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .backgroundIcon .iconWhatWeDo:hover {
+          fill: #ff6363; }
+    .mainTravel .whatWeDo .containerWhatWeDo .allBlock .textWhatWeDo {
+      padding-top: 15px;
+      color: #e8e8e8;
+      font-family: 'Aleo';
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px;
+      z-index: 1; }
+      @media (min-width: 768px) and (max-width: 991.99px) {
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .textWhatWeDo {
+          font-size: 30px; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .textWhatWeDo {
+          font-size: 30px; } }
+      @media (max-width: 575.99px) {
+        .mainTravel .whatWeDo .containerWhatWeDo .allBlock .textWhatWeDo {
+          font-size: 30px; } }
+
+.mainTravel .informationBlockOne {
+  background: url("../img/spain_1_section.png") center center no-repeat;
+  background-size: cover; }
+  .mainTravel .informationBlockOne .containerInformationBlockOne {
+    padding: 230px 0 100px 0; }
+    .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne {
+      background-color: #232323;
+      opacity: 0.9;
+      padding: 0 30px 0 30px; }
+      @media (max-width: 575.99px) {
+        .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne {
+          text-align: center; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne {
+          text-align: center; } }
+      .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .titleBlockInformationOne {
+        padding: 50px 0 30px 0;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 26px; }
+      .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .titleTwoBlockInformationOne {
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase; }
+      .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .descriptionBlockInformationOne {
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 30px 0 50px 0; }
+      @media (max-width: 575.99px) {
+        .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .positionButtonBlockInformationOne {
+          display: flex;
+          justify-content: center; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .positionButtonBlockInformationOne {
+          display: flex;
+          justify-content: center; } }
+      .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .positionButtonBlockInformationOne .buttonBlockInformationOne {
+        width: 225px;
+        height: 60px;
+        background: url("../img/button-background.png") center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin-bottom: 50px; }
+        @media (max-width: 410px) {
+          .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .positionButtonBlockInformationOne .buttonBlockInformationOne {
+            height: 45px; } }
+        .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .positionButtonBlockInformationOne .buttonBlockInformationOne .link {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: 'Aleo';
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 60px;
+          text-transform: uppercase; }
+          @media (max-width: 410px) {
+            .mainTravel .informationBlockOne .containerInformationBlockOne .blockInformationOne .positionButtonBlockInformationOne .buttonBlockInformationOne .link {
+              font-size: 11px;
+              line-height: 45px; } }
+
+.mainTravel .informationBlockTwo {
+  background: url("../img/spain_2_section.png") center center no-repeat;
+  background-size: cover; }
+  .mainTravel .informationBlockTwo .containerInformationBlockTwo {
+    padding: 230px 0 100px 0; }
+    .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo {
+      background-color: #232323;
+      opacity: 0.9;
+      padding: 0 30px 0 30px; }
+      @media (max-width: 575.99px) {
+        .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo {
+          text-align: center; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo {
+          text-align: center; } }
+      .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .titleBlockInformationTwo {
+        padding: 50px 0 30px 0;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 26px; }
+      .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .titleTwoBlockInformationTwo {
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase; }
+      .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .descriptionBlockInformationTwo {
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 30px 0 50px 0; }
+      @media (max-width: 575.99px) {
+        .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .positionButtonBlockInformationTwo {
+          display: flex;
+          justify-content: center; } }
+      @media (min-width: 576px) and (max-width: 767.99px) {
+        .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .positionButtonBlockInformationTwo {
+          display: flex;
+          justify-content: center; } }
+      .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .positionButtonBlockInformationTwo .buttonBlockInformationTwo {
+        width: 225px;
+        height: 60px;
+        background: url("../img/button-background.png") center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin-bottom: 50px; }
+        @media (max-width: 410px) {
+          .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .positionButtonBlockInformationTwo .buttonBlockInformationTwo {
+            height: 45px; } }
+        .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .positionButtonBlockInformationTwo .buttonBlockInformationTwo .link {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: 'Aleo';
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 60px;
+          text-transform: uppercase; }
+          @media (max-width: 410px) {
+            .mainTravel .informationBlockTwo .containerInformationBlockTwo .blockInformationTwo .positionButtonBlockInformationTwo .buttonBlockInformationTwo .link {
+              font-size: 11px;
+              line-height: 45px; } }
+
+.mainTravel .whatOurTouristSay {
+  background: url("../img/whatourtouristsay_section.png") center center no-repeat;
+  background-size: cover; }
+  .mainTravel .whatOurTouristSay .containerWhatOurTouristSay {
+    padding-top: 60px;
+    padding-bottom: 200px; }
+    @media (min-width: 576px) and (max-width: 767.99px) {
+      .mainTravel .whatOurTouristSay .containerWhatOurTouristSay {
+        padding-top: 0;
+        padding-bottom: 100px; } }
+    @media (max-width: 575.99px) {
+      .mainTravel .whatOurTouristSay .containerWhatOurTouristSay {
+        padding-top: 0;
+        padding-bottom: 100px; } }
+    .mainTravel .whatOurTouristSay .containerWhatOurTouristSay .titleWhatOurTouristSay {
+      color: #ffffff;
+      font-family: 'Aleo';
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px;
+      padding: 60px 0 95px 0; }
+    .mainTravel .whatOurTouristSay .containerWhatOurTouristSay .commentWhatOurTouristSay .imageWhatOurTouristSay {
+      background: url("../img/sam_sumon.png") center center no-repeat;
+      background-size: cover;
+      padding: 142px 0 142px 0; }
+    .mainTravel .whatOurTouristSay .containerWhatOurTouristSay .commentWhatOurTouristSay .textCommentWhatOurTouristSay {
+      padding-left: 60px;
+      padding-right: 60px;
+      background-color: #333333; }
+      .mainTravel .whatOurTouristSay .containerWhatOurTouristSay .commentWhatOurTouristSay .textCommentWhatOurTouristSay .nameUser {
+        color: #fefefe;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        padding: 50px 0 30px 0; }
+      .mainTravel .whatOurTouristSay .containerWhatOurTouristSay .commentWhatOurTouristSay .textCommentWhatOurTouristSay .comment {
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: justify;
+        padding-bottom: 50px; }
+        .mainTravel .whatOurTouristSay .containerWhatOurTouristSay .commentWhatOurTouristSay .textCommentWhatOurTouristSay .comment .fas {
+          color: #5474fd;
+          font-size: 20px;
+          vertical-align: super; }
+
+.footerTravel {
+  background-color: #232323; }
+  .footerTravel .containerContactUs {
+    padding-top: 60px;
+    padding-bottom: 25px; }
+    @media (min-width: 576px) and (max-width: 767.99px) {
+      .footerTravel .containerContactUs {
+        padding-top: 0;
+        padding-bottom: 0; } }
+    @media (max-width: 575.99px) {
+      .footerTravel .containerContactUs {
+        padding-top: 0;
+        padding-bottom: 0; } }
+    .footerTravel .containerContactUs .titleContactUs {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 3.36px;
+      padding: 60px 0 15px 0; }
+    .footerTravel .containerContactUs .descriptionContactUs {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 1.6px; }
+    .footerTravel .containerContactUs .socialLinkContactUs {
+      padding: 30px 0 25px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .footerTravel .containerContactUs .socialLinkContactUs .socialLink {
+        color: #ffffff;
+        font-size: 20px; }
+        .footerTravel .containerContactUs .socialLinkContactUs .socialLink:hover {
+          color: #5474fd; }
